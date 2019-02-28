@@ -47,7 +47,7 @@ function chk_ssid()
 // menuを決める
 function menu()
 {
-    $menu = '<li class="nav-item"><a class="nav-link" href="index.php">新着動画登録</a></li><li class="nav-item"><a class="nav-link" href="select.php">新着動画一覧</a></li>';
+    $menu = '<li class="nav-item"><a class="nav-link" href="index.php">新着動画登録</a></li><li class="nav-item"><a class="nav-link" href="select.php">新着動画一覧</a></li><li class="nav-item"><a class="nav-link" href="user_index.php">user登録</a></li><li class="nav-item"><a class="nav-link" href="user_select.php">user一覧</a></li>';
     $menu .= '<li class="nav-item"><a class="nav-link" href="logout.php">ログアウト</a></li>';
     return $menu;
 }
